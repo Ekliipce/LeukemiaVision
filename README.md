@@ -106,12 +106,43 @@ These features are consistent with acute lymphoblastic leukemia (ALL)
 morphology. Clinical correlation and additional testing recommended."
 ```
 
-## 🗺️ Roadmap
+## 🗺️ Development Roadmap
 
-### Phase 1: MVP (Current)
-- [] Binary classification (healthy vs leukemic)
-- [] Grad-CAM visualization
-- [] Basic LLM explanations
+### Phase 1: Data & Exploration 📊
+- [ ] Setup project structure
+- [ ] Download datasets (ALL-IDB, C-NMC)
+- [ ] **Notebook 01**: EDA - visualize images, analyze class distribution
+- [ ] **Notebook 02**: Preprocessing - normalization, augmentation, train/val/test split
+
+### Phase 2: Baseline Model 🧠
+- [ ] Build data pipeline (`src/data/`)
+- [ ] **Notebook 03**: Train ResNet50 baseline
+- [ ] Implement training loop with metrics
+- [ ] First evaluation on validation set
+
+### Phase 3: Model Optimization 🚀 
+- [ ] **Notebook 03**: Test EfficientNet & ViT
+- [ ] Hyperparameter tuning (LR, optimizer, augmentation)
+- [ ] Select best model and evaluate on test set
+
+### Phase 4: Explainability 🔍 
+- [ ] **Notebook 04**: Implement Grad-CAM
+- [ ] Generate heatmaps for validation set
+- [ ] Validate model attention on medical features
+- [ ] (Optional) Test SHAP
+
+### Phase 5: LLM Integration 💬 
+- [ ] **Notebook 05**: Setup and test LLM API
+- [ ] Design explanation prompts
+- [ ] Build pipeline: Image → Prediction → Heatmap → LLM → Explanation
+- [ ] Refine explanations quality
+
+### Phase 6: Demo & Polish 🎨 
+- [ ] Build Streamlit/Gradio demo
+- [ ] Write production scripts (`train.py`, `inference.py`)
+- [ ] Complete documentation
+- [ ] Create presentation
+
 
 ---
 
