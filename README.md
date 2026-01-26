@@ -109,16 +109,16 @@ morphology. Clinical correlation and additional testing recommended."
 ## 🗺️ Development Roadmap
 
 ### Phase 1: Data & Exploration 📊
-- [ ] Setup project structure
-- [ ] Download datasets (ALL-IDB, C-NMC)
-- [ ] **Notebook 01**: EDA - visualize images, analyze class distribution
-- [ ] **Notebook 02**: Preprocessing - normalization, augmentation, train/val/test split
+- [x] Setup project structure
+- [x] Download datasets (ALL-IDB, C-NMC)
+- [x] **Notebook 01**: EDA - visualize images, analyze class distribution
+- [x] **Notebook 02**: Preprocessing - normalization, augmentation, train/val/test split
 
 ### Phase 2: Baseline Model 🧠
-- [ ] Build data pipeline (`src/data/`)
-- [ ] **Notebook 03**: Train ResNet50 baseline
-- [ ] Implement training loop with metrics
-- [ ] First evaluation on validation set
+- [x] Build data pipeline (`src/data/`)
+- [x] **Notebook 03**: Train ResNet50 baseline
+- [x] Implement training loop with metrics
+- [x] First evaluation on validation set
 
 ### Phase 3: Model Optimization 🚀 
 - [ ] **Notebook 03**: Test EfficientNet & ViT
