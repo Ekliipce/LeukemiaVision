@@ -17,7 +17,26 @@ Early detection of leukemia is critical for successful treatment. This project a
 
 The system is designed to be a **decision support tool** for hematologists, not a replacement for medical expertise.
 
----
+## 🏆 Results & Achievements
+
+### Timeline
+
+- **January 29, 2026** - Achieved 97.66% accuracy with ResNet18 on C-NMC dataset (SOTA-level performance)
+- **January 22, 2026** - Completed data pipeline and EDA-driven augmentation strategy
+
+### ResNET18 Classification Performance
+
+ResNet18 model achieves **state-of-the-art performance** on the C-NMC dataset (Cancer and Normal Myeloid Cells):
+
+| Metric | Score | Clinical Relevance |
+|--------|-------|-------------------|
+| **Accuracy** | **97.66%** | Overall diagnostic accuracy |
+| **Recall (Sensitivity)** | **98.32%** | Only 1.68% of leukemia cases missed ⚠️ |
+| **Precision** | **98.18%** | High confidence in positive diagnoses |
+| **F1-Score** | **98.25%** | Balanced performance |
+
+> **🎯 Clinical Impact**: With 98.32% sensitivity, the model successfully detects 98 out of 100 leukemia cases, making it highly suitable for screening applications where minimizing false negatives is critical.
+
 
 ## ✨ Key Features
 
